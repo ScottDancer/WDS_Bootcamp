@@ -2,8 +2,6 @@
   box-sizing:border-box;
 }
 body {
-  /* background-color: #DAFEE1; */
-  /* color: #A84856; */
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #1b2522
@@ -99,8 +97,8 @@ body {
 .section-title {
   margin: 0;
   margin-bottom: 2rem;
-  /* font-size: 2rem;
-  text-align: center; */
+  font-size: 2rem;
+  text-align: center;
   color: black;
 }
 
@@ -169,7 +167,7 @@ body {
 }
 
 .contact-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   font-weight: bold;
 }

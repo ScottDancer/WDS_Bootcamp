@@ -78,6 +78,7 @@ body {
     text-decoration: none;
     border: none;
     cursor: pointer;
+    font-size: inherit;
   }
 
   .btn:hover,
@@ -145,7 +146,7 @@ body {
 
 .form {
   max-width: 900px;
-  margin: 0 aut;
+  margin: 0 auto;
 }
 
 .form label {
@@ -168,7 +169,26 @@ body {
 }
 
 .contact-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   font-weight: bold;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 75px;
+  max-height: 200px;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #0af;
+}
+
+.btn-container {
+  text-align: end;
+}
+
+.btn-square {
+  border-radius: .3em;
 }

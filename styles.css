@@ -17,8 +17,10 @@ body {
   background-position-y: center;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .nav {
   display: flex;
@@ -55,4 +57,36 @@ body {
 
   .nav-list a:hover {
     color: #ccc;
+  }
+
+  .title {
+  font-size: 3rem;
+  margin: 0;
+  }
+
+  .sub-title {
+    font-size: 1.5rem;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    border-radius: 10000px;
+    padding: .25em 1em;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background-color: hsl(200, 100%, 40%) ;
+  }
+
+  .scroll-down-icon {
+    position: absolute;
+    bottom: 1rem;
+    width: 30px;
   }

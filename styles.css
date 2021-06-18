@@ -1,4 +1,28 @@
+* {
+  box-sizing:border-box;
+}
 body {
-  background-color: #DAFEE1;
-  color: #A84856;
+  /* background-color: #DAFEE1; */
+  /* color: #A84856; */
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #1b2522
+}
+.full-screen-header
+{
+  height: 100vh;
+  background-image: url('img/header_image.jpg');
+  background-size: cover;
+  background-position-x: 40%;
+  background-position-y: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+
+}
+
+.nav-top {
+  
 }
